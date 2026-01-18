@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-minimal_mistakes_skin    : "air"
+minimal_mistakes_skin    : "mint"
 title                    : "Brindha Sivakumar"
 title_separator          : "-"
 name                     : &name "Brindha Sivakumar"
