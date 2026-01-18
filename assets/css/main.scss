@@ -41,3 +41,42 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Larger author profile picture */
+.author__avatar img {
+  max-width: 200px !important;  /* Default is 110px */
+  border-radius: 50%;
+}
+
+/* Larger author profile section */
+.sidebar__right {
+  width: 350px !important;  /* Default is 300px */
+}
+
+@media (min-width: 64em) {
+  .sidebar__right {
+    width: 400px !important;
+  }
+}
+
+/* Bigger author name */
+.author__name {
+  font-size: 1.5em !important;  /* Make name bigger */
+  margin-bottom: 0.5em;
+}
+
+/* Bigger bio text */
+.author__bio {
+  font-size: 1.1em !important;
+  margin-bottom: 1em;
+}
+
+/* Remove follow button styles (if any remain) */
+.btn--follow {
+  display: none !important;
+}

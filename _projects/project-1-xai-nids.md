@@ -49,4 +49,4 @@ Developed a novel hybrid framework integrating Explainable AI techniques with Ca
 
 ## Links
 - [GitHub Repository](https://github.com/brindha-sivakumar/Hybrid-Causal-XAI-For-NIDs)
-- [Research Paper](url) 
+- [Research Paper](/assets/papers/causal-xai-nids-draft.pdf) 

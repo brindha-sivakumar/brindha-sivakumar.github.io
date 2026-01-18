@@ -24,13 +24,13 @@ repository               : "brindha-sivakumar/brindha-sivakumar.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Brindha Sivakumar"
   pronouns         : # example: "she/her"  
   bio              : "AI Graduate Student | Cybersecurity Engineer | 7 Years Experience in Security Operations"
   location         : "USA"
   #employer         : "Red Brick University"
-  uri              : # URL
+  #uri              : # URL
   email            : "brin2595@gmail.com" 
 
   # Academic websites
