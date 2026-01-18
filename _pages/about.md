@@ -9,7 +9,7 @@ redirect_from:
 
 I'm Brindha Sivakumar, a graduate student in Artificial Intelligence at the University of Michigan-Dearborn with 7 years of professional experience in cybersecurity and infrastructure security.
 
-##What I Do
+## What I Do
 
 I specialize in the intersection of AI and security, focusing on:
 - **Explainable AI** - Making security AI transparent and trustworthy
