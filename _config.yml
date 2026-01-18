@@ -315,6 +315,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-include-cache
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -324,6 +325,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-include-cache
 
 
 # Archives
