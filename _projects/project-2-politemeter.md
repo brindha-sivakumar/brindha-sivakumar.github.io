@@ -1,6 +1,9 @@
 ---
 title: "PoliteMeter"
-excerpt: "Automated politeness detection"
+excerpt: "Automated politeness detection <br>
+- Frameworks: PyTorch, Hugging Face Transformers, NLTK <br>
+- Techniques: Transfer learning, fine-tuning, embedding layers, sequence modeling <br>
+- Models: LSTM networks, BERT transformers, attention mechanisms<br>"
 collection: portfolio
 ---
 
