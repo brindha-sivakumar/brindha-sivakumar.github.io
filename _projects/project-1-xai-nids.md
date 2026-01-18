@@ -5,6 +5,7 @@ excerpt: "Applying Causal Inference and XAI to improve alert prioritization in N
 - Causal Inference: PC algorithm, GES algorithm, causal graph analysis<br>
 - ML Frameworks: scikit-learn, pandas, NumPy"
 collection: portfolio
+
 ---
 
 ## AI Focus Area
