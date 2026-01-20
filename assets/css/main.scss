@@ -1,39 +1,43 @@
 ---
 ---
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
 
-/* Larger author profile picture */
-.author__avatar img {
-  max-width: 200px !important;  /* Default is 110px */
-  border-radius: 50%;
-}
+@import
+    "vendor/breakpoint/breakpoint",
 
-/* Larger author profile section */
-.sidebar__right {
-  width: 350px !important;  /* Default is 300px */
-}
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-@media (min-width: 64em) {
-  .sidebar__right {
-    width: 400px !important;
-  }
-}
+    "include/mixins",
+    "vendor/susy/susy",
 
-/* Bigger author name */
-.author__name {
-  font-size: 1.5em !important;  /* Make name bigger */
-  margin-bottom: 0.5em;
-}
+    "layout/reset",
+    "layout/base",
 
-/* Bigger bio text */
-.author__bio {
-  font-size: 1.1em !important;
-  margin-bottom: 1em;
-}
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
 
-/* Remove follow button styles (if any remain) */
-.btn--follow {
-  display: none !important;
-}
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
+
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
+;
