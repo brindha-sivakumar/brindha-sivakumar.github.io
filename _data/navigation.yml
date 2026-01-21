@@ -17,9 +17,12 @@ main:
   #- title: "Teaching"
    # url: /teaching/    
     
-  - title: "Projects"
+  - title: "Academic Projects and Research"
     url: /projects/
         
+  - title: "Skills"
+    url: /skills/ 
+
   #- title: "Blog Posts"
    # url: /year-archive/
     
