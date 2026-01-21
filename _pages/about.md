@@ -65,6 +65,9 @@ I'm seeking summer 2025 internship opportunities in AI, cybersecurity, or the ex
 ### Languages
 - **English:** Fluent (Professional Working Proficiency)
 - **Tamil:** Native
+- **Hindi:** Basic
+- **Spanish:** Basic
+- **French:** Basic
 
 ### Location
 - **Current:**  Michigan, USA

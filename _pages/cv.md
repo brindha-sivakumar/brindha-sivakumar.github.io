@@ -11,7 +11,7 @@ author_profile: true
 <a href="{{ site.url }}{{ site.baseurl }}/assets/files/Brindha_Sivakumar_CV.pdf" class="btn btn--info" target="_blank">📥 Download Full CV (PDF)</a>
 
 ### Quick Links
-* [About me] (/about/)
+* [About me](/about/)
 * [Professional Experience](/experience/)
 * [Academic Education](/education/)
 * [Technical Skills](/skills/)
