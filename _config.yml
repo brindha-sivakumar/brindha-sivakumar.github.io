@@ -25,7 +25,7 @@ repository               : "brindha-sivakumar/brindha-sivakumar.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/profile.jpg"
+  #avatar           : "/images/profile.jpg"
   name             : "Brindha Sivakumar"
   pronouns         : # example: "she/her"  
   bio              : "AI Graduate Student | Cybersecurity Engineer | 7 Years Experience in Security Operations"
