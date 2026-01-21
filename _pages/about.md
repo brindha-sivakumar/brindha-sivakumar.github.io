@@ -77,8 +77,8 @@ I'm seeking summer 2025 internship opportunities in AI, cybersecurity, or the ex
 
 **Email:** brin2595@gmail.com  
 **LinkedIn:** [linkedin.com/in/brindha-sivakumar](https://linkedin.com/in/brindha-sivakumar)  
-**GitHub:** [github.com/yourusername](https://github.com/brindha-sivakumar)  
-**Portfolio:** [yourusername.github.io](https://brindha-sivakumar.github.io/)  
+**GitHub:** [github.com/brindha-sivakumar](https://github.com/brindha-sivakumar)  
+**Portfolio:** [brindha-sivakumar.github.io](https://brindha-sivakumar.github.io/)  
 **Phone:** 947-275-0417
 
 ---

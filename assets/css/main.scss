@@ -42,4 +42,22 @@
     "vendor/font-awesome/brands"
 ;
 
+/* Force the content area to span the full width and hide the empty sidebar area */
+.archive, .page {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+}
 
+/* Ensure the sidebar container is completely removed from the layout calculation */
+.sidebar {
+  display: none !important;
+}
+
+/* Center the main content container if it looks too shifted */
+#main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
