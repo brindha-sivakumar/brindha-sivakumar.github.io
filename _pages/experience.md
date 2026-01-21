@@ -1,10 +1,9 @@
 ---
 layout: single
-title: "Experience"
+title: "Professional Experience"
 permalink: /experience/
 classes: wide
 ---
-## Professional Experience
 
 ### Workday
 **Cybersecurity Engineer**  

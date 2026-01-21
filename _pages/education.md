@@ -4,7 +4,6 @@ title: "Education"
 permalink: /education/
 classes: wide
 ---
-## Education
 
 ### University of Michigan-Dearborn
 **Master of Science in Artificial Intelligence**  
