@@ -41,3 +41,24 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Increase sidebar width for desktop */
+@media (min-width: 64em) {
+  .sidebar {
+    width: 300px; /* Default is usually around 200-250px */
+  }
+
+  .archive, .page {
+    margin-left: 320px; /* This ensures the main text doesn't overlap the bigger sidebar */
+  }
+}
+
+.author__avatar img {
+  max-width: 150px; /* Adjust this number to your preference */
+  width: 100%;
+  height: auto;
+}
+
+.author__name {
+  font-size: 1.5rem; /* Makes your name text bigger */
+}
