@@ -5,8 +5,6 @@ permalink: /skills/
 classes: wide
 ---
 
-## Technical Skills
-
 ### AI/ML Frameworks & Tools
 - **Deep Learning:** PyTorch, TensorFlow, Keras
 - **ML Libraries:** scikit-learn, Pandas, NumPy, Matplotlib
