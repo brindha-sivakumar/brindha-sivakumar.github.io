@@ -1,7 +1,8 @@
 ---
-layout: archive
+layout: single
 title: "Experience"
 permalink: /experience/
+classes: wide
 ---
 ## Professional Experience
 

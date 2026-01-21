@@ -1,7 +1,8 @@
 ---
-layout: archive
+layout: single
 title: "Education"
 permalink: /education/
+classes: wide
 ---
 ## Education
 

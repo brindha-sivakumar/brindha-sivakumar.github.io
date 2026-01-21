@@ -1,7 +1,8 @@
 ---
-layout: archive
+layout: single
 title: "Skills"
 permalink: /skills/
+classes: wide
 ---
 
 ## Technical Skills
