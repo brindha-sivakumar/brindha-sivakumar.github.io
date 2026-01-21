@@ -1,12 +1,12 @@
 ---
 ---
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'mint' }}";
 @import "minimal-mistakes";
 
 /* Larger author profile picture */
 .author__avatar img {
-  max-width: 200px !important;
+  max-width: 150px !important;
   border-radius: 50%;
 }
 
