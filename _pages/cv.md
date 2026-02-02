@@ -8,7 +8,7 @@ classes: wide
 # Brindha Sivakumar - Curriculum Vitae
 
 
-<a href="{{ site.url }}{{ site.baseurl }}/assets/files/Brindha_Sivakumar_CV.pdf" class="btn btn--info" target="_blank">📥 Download Full CV (PDF)</a>
+<a href="{{ site.url }}{{ site.baseurl }}/assets/files/Brindha_Sivakumar.pdf" class="btn btn--info" target="_blank">📥 Download Full CV (PDF)</a>
 
 ### Quick Links
 * [About me](/about/)
