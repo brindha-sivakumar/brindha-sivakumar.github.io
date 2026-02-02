@@ -47,12 +47,3 @@ classes: wide
 
 ---
 
-## Certifications
-
-### Cloud & Kubernetes Security
-- **GIAC Cloud Security Automation (GCSA)** - GIAC/SANS
-- **AWS Certified Security – Specialty** - Amazon Web Services
-- **Certified Kubernetes Administrator (CKA)** - Cloud Native Computing Foundation
-- **Certified Kubernetes Security Specialist (CKS)** - Cloud Native Computing Foundation
-
----
