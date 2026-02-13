@@ -20,7 +20,7 @@ My journey combines deep technical expertise in security operations (SIEM, SOAR,
 
 ## What I'm Looking For
 
-I'm seeking summer 2025 internship opportunities in AI, cybersecurity, or the exciting intersection of both fields where I can apply my unique blend of skills to solve real-world security challenges.
+I'm seeking summer 2026 internship opportunities in AI, cybersecurity, or the exciting intersection of both fields where I can apply my unique blend of skills to solve real-world security challenges.
 
 
 ## Professional Interests
