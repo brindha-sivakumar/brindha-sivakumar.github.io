@@ -1,10 +1,6 @@
 ---
 title: "Trigger Generalization and Defense Evasion in Backdoored CNNs [In Progress]"
-excerpt: "
-- BadNets / backdoor poisoning — injecting malicious behavior at training time <br>
-- Trigger generalization — how attack effectiveness changes with trigger design choices <br>
-- Adaptive attacks — designing attacks that know and exploit the defense strategy <br>
-- Defense robustness — understanding where AC and Fine-Pruning are systematically brittle"
+excerpt: ""
 
 collection: portfolio
 ---
