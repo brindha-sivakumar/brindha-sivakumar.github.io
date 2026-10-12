@@ -18,11 +18,11 @@ I'm pursuing applied research on AI threat landscape with a focus on securing th
 
 ## Background
 
-My journey combines deep technical expertise in security operations (SIEM, SOAR, UEBA) with modern AI/ML frameworks (PyTorch, TensorFlow, scikit-learn). I've worked at companies like Workday, Smarttech247, and Tata Consultancy Services, where I've built security solutions at scale.
+My journey combines deep technical expertise in security operations (SIEM, SOAR, UEBA) with modern AI/ML frameworks (PyTorch, TensorFlow, scikit-learn). I've worked at companies like Dana, Workday, Smarttech247, and Tata Consultancy Services, where I've built security solutions at scale.
 
 ## What I'm Looking For
 
-I'm seeking summer 2026 internship opportunities in AI, cybersecurity, or the exciting intersection of both fields where I can apply my unique blend of skills to solve real-world security challenges.
+I'm seeking full time opportunities in AI, cybersecurity, or the exciting intersection of both fields where I can apply my unique blend of skills to solve real-world security challenges.
 
 
 ## Professional Interests

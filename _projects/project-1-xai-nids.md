@@ -1,52 +1,42 @@
 ---
-title: "Explainable AI for Network Intrusion Detection"
-excerpt: "Applying Causal Inference and XAI to improve alert prioritization in NIDS <br> - Deep Learning: PyTorch, LSTM networks, neural network optimization <br>
-- Explainable AI: DeepLIFT, SHAP, LIME, Integrated Gradients <br>
-- Causal Inference: PC algorithm, GES algorithm, causal graph analysis<br>
-- ML Frameworks: scikit-learn, pandas, NumPy"
+title: "Trigger Generalization and Defense Evasion in Backdoored CNNs"
+excerpt: "Stress-testing backdoor defenses in CNNs across trigger configurations <br> - Attacks: fixed patch, blended, and shifted-patch triggers (BadNets-style) <br>
+- Defenses: Activation Clustering, Fine-Pruning <br>
+- Stack: PyTorch, CIFAR-10, ResNet-18"
 collection: portfolio
 
 ---
 
 ## AI Focus Area
-Machine Learning for Cybersecurity | Explainable AI | Causal Inference
+Adversarial ML | Backdoor Attacks | CNN | Defense Evasion | PyTorch | CIFAR-10
 
 ## Overview
-Developed a novel hybrid framework integrating Explainable AI techniques with Causal Inference to improve the interpretability and effectiveness of Network Intrusion Detection Systems (NIDS). This research-oriented project aims to solve the "black box" problem in AI-powered security systems by providing transparency to security analysts with root cause analysis.
+Deep neural networks deployed in safety-critical systems are vulnerable to backdoor attacks, a form of training-time manipulation where a model behaves normally on clean inputs but misclassifies any input containing a specific trigger pattern. This team project (4 members) empirically investigated which trigger configurations generalize best and under what conditions two standard defenses, Activation Clustering and Fine-Pruning, fail.
 
 ## Technical Implementation
-- Long Short Term Memory (LSTM) classifier for alert classification (important vs irrelevant)
-- DeepLIFT XAI framework selected after evaluating four XAI techniques (DeepLIFT, LIME, SHAP, Integrated Gradients) across various metrics 
-- Applied Peter-Clark (PC) and Greedy Equivalence Search (GES) algorithms to construct a consensus causal graph that identifies root causes and causal paths.
-- Combined to develop a hybrid framework that synthesized XAI feature importance with causal graph traversal to generate actionable explanations.
-
+- Trained a clean CIFAR-adapted ResNet-18 baseline on CIFAR-10 (95.3% test accuracy) as the reference for all backdoored models
+- Implemented BadNets-style attacks with three trigger types (fixed patch, blended noise, shifted patch) and swept 27 configurations across poison ratios of 1%, 5%, and 10%
+- Implemented Activation Clustering (PCA + k-means on penultimate-layer activations) and Fine-Pruning (channel pruning of the final residual block at 10-90%) and evaluated them on the backdoored models
+- Ran a 20-configuration adaptive blended-trigger sweep (blend strength ε × poison ratio) to map where attacks evade Activation Clustering while keeping high attack success
 
 ## Key Achievements
-- Achieved 36% causal coverage demonstrating meaningful XAI-causal integration for alert prioritization
-- Demonstrated 70% complementarity between XAI and causal approaches, proving they analyze different but complementary aspects of network threats
-- Validated framework across two datasets (TalTech NIDS, UNSW-NB15), confirming robustness and generalizability
-
+- All 27 configurations exceeded 96% attack success rate (ASR) while clean accuracy stayed in the 93-94% range, versus the 95.3% baseline
+- Blended triggers were the most sample-efficient: above 99.5% ASR at 1% poison and effectively 100% at 5% and 10%
+- Shifted-patch triggers closely matched fixed-patch results, showing the model learns the trigger pattern rather than a pixel location
+- Fine-Pruning was strongly configuration-dependent: it cut ASR to 7% for a strong blended-trigger model at 10% pruning, but only partially and non-monotonically suppressed patch triggers
+- In the adaptive sweep, 9 of 20 configurations evaded our Activation Clustering implementation, and 8 did so while keeping ASR at or above 90%. Several 5% poison configurations evaded with ASR above 99.7%, because the detector's minority-cluster assumption broke down
 
 ## Skills Demonstrated
-### AI/ML Technologies 
-- Deep Learning: PyTorch, LSTM networks, neural network optimization
-- Explainable AI: DeepLIFT, SHAP, LIME, Integrated Gradients 
-- Causal Inference: PC algorithm, GES algorithm, causal graph analysis
-- ML Frameworks: scikit-learn, pandas, NumPy
+### AI/ML Technologies
+- Adversarial ML: data poisoning, backdoor attack design, trigger generalization analysis
+- Defense implementation: Activation Clustering, Fine-Pruning
+- Deep Learning: PyTorch, ResNet-18 adaptation for CIFAR-10 (SGD with Nesterov momentum, cosine annealing)
 
 ### Cybersecurity Domain
-- Network intrusion detection systems (NIDS) architecture and operation
-- Security alert prioritization and false positive reduction
-- Threat detection workflows and SOC (Security Operations Center) analyst requirements
-- Network traffic analysis and feature engineering
+- Training-pipeline and ML supply-chain threat modeling
+- Defense evaluation and evasion analysis from an adversary's perspective
 
 ### Data Science
-- Handling severely imbalanced datasets (98.5% / 1.5% split)
-- Feature selection and preprocessing (42 network features)
-- Statistical analysis and performance metric design
-- Data visualization with matplotlib and NetworkX
-
-
-## Links
-- [GitHub Repository](https://github.com/brindha-sivakumar/Hybrid-Causal-XAI-For-NIDs)
-- [Research Paper](/assets/papers/causal-xai-nids-draft.pdf) 
+- Controlled experiment design (27-configuration sweep and 20-configuration adaptive grid)
+- Evaluation metric design (clean accuracy, ASR, detection outcome)
+- Results analysis and visualization (ASR/CA heatmaps, trade-off curves) with Matplotlib

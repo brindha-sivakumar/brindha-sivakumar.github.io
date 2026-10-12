@@ -15,6 +15,7 @@ Dearborn, Michigan
 - Causal Inference for Security Alert Prioritization
 - Deep Learning for Cybersecurity Applications like vulnerable code and credential leakage detection in code
 - Enhancing Anomaly Detection through Vector-Based Information Retrieval and Neural Log Analysis.
+- Backdoor Attacks and Defense Evasion in CNNs (trigger generalization, Activation Clustering, Fine-Pruning)
 
 **Relevant Coursework:**
 - Machine Learning & Deep Learning
