@@ -40,6 +40,3 @@ Deep neural networks deployed in safety-critical systems are vulnerable to backd
 - Controlled experiment design (27-configuration sweep and 20-configuration adaptive grid)
 - Evaluation metric design (clean accuracy, ASR, detection outcome)
 - Results analysis and visualization (ASR/CA heatmaps, trade-off curves) with Matplotlib
-
-## Links
-- [Research Paper](/assets/papers/backdoor-cnn-trigger-generalization.pdf)

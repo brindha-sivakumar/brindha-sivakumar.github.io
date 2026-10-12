@@ -5,6 +5,19 @@ permalink: /experience/
 classes: wide
 ---
 
+### Dana
+**IT Co-Op - AI Support (Enterprise AI Agent Development)**  
+*May 2026 – August 2026 | MI, USA*
+
+**AI Agent Development**
+
+- Designing, building, testing, and deploying AI agents to enable natural language interaction with enterprise network and infrastructure tools.
+- Tracking AI initiative deliverables and supporting enterprise-wide adoption of Microsoft Copilot and AI tools across business units.
+
+**Key Technologies:** Model Context Protocol, ReAct framework Prompt Engineering, Copilot Studio, AI SOC
+
+---
+
 ### Workday
 **Cybersecurity Engineer**  
 *January 2023 – October 2024 | Dublin, Ireland*

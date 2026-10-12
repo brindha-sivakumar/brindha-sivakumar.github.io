@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Graduate student in Artificial Intelligence with **7 years of professional experience** in cybersecurity and infrastructure security. Specializes in implementing robust security measures, automating workflows, and applying AI/ML techniques to solve complex security challenges. Currently pursuing applied research on AI threat landscape with a focus on securing the AI lifecycle, focusing on adversarial robustness against model extraction and training data poisoning within cloud-native infrastructures.
+Graduate student in Artificial Intelligence (MS, University of Michigan-Dearborn, expected May 2027) with **7 years of professional experience** in cybersecurity and infrastructure security. Specializes in implementing robust security measures, automating workflows, and applying AI/ML techniques to complex security challenges. Thesis research focuses on the security of retrieval-augmented generation (RAG) systems, specifically defending against knowledge-base poisoning at retrieval time.
 
 **Unique Value Proposition:** Bridges the gap between AI innovation and cybersecurity operations, bringing both deep technical expertise and practical industry experience to build secure, explainable, and trustworthy AI systems.
 
 ## Current Focus
 
-I'm pursuing applied research on AI threat landscape with a focus on securing the AI lifecycle, focusing on adversarial robustness against model extraction and training data poisoning within cloud-native infrastructures.
+My thesis research is on RAG security: how retrieval-augmented LLM systems can be manipulated through poisoned documents in their knowledge corpus, and how to defend against that at retrieval time. I'm investigating trust scoring that uses document provenance and source reliability, instead of treating every retrieved document as equally trustworthy, and testing how it holds up against existing defenses such as TrustRAG and RobustRAG and against adaptive attackers. My earlier research interests include model extraction, membership inference, and training data poisoning.
 
 ## Background
 
@@ -28,9 +28,12 @@ I'm seeking full time opportunities in AI, cybersecurity, or the exciting inters
 ## Professional Interests
 
 ### Research Areas
+### Research Areas
+- Retrieval-Augmented Generation (RAG) Security
+- Data Poisoning & Retrieval-Time Defenses
+- Adversarial Machine Learning & Robustness
 - Explainable AI for Security Applications
 - Causal Inference in Cybersecurity
-- Adversarial Machine Learning & Robustness
 - AI-Powered Threat Detection and Response
 - Trustworthy AI Systems
 
